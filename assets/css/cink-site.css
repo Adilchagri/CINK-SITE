@@ -2008,12 +2008,12 @@ responsive
 */
 
 
+/* Mobile Devices */
 @media (max-width: 1240px) {
   .main-banner::before {
     width: 640px;
     height: 526px;
   }
-
 }
 
 @media (max-width: 992px) {
@@ -2079,8 +2079,19 @@ responsive
   .subscribe-newsletters {
     margin-bottom: 0px;
   }
+
+  .programs-tables .col-lg-4 {
+    margin-left: 150px!important;
+  }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .programs-tables .col-lg-4 {
+    margin-left: 25px!important;
+  }
+}
+
+/* Mobile Devices */
 @media (max-width: 767px) {
   .main-banner .item .down-buttons {
     display: inline-block;
@@ -2118,5 +2129,9 @@ responsive
   }
   .contact-us .info span {
     margin-bottom: 20px;
+  }
+
+  .programs-tables .col-lg-4 {
+    margin-left: 0!important;
   }
 }
